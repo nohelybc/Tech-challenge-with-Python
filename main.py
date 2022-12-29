@@ -10,4 +10,4 @@ def flat_lists(lists: list) -> list:
                 flat_list.append(item)
         return flat_list
     except Exception as e:
-        logging.error(f' An error has occurred {e}')
+        logging.error(f' An error has occurred: {e}')
