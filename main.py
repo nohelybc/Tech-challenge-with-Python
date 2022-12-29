@@ -1,6 +1,9 @@
 import logging
 
 def flat_lists(lists: list) -> list:
+    """This function flattens a list of lists.
+    Args lists: Contains the list that should be flattened.
+    Returns: A flattened list."""
     try:
         flat_list = []
         for item in lists:
